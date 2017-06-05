@@ -55,16 +55,16 @@
   "software product line": {
     "acm": [
       "Using Composite Feature Models to Support Agile Software Product Line Evolution"
-    ],
-    "elsevier": [
-      "A study of value in agile software development organizations",
-      "Agile methods rapidly replacing traditional methods at Nokia- A survey of opinions on agile transformation"
     ]
   },
   "interviews and surveys": {
     "acm": [
       "Survey on agile and lean usage in finnish software industry",
       "Have Agile Techniques been the Silver Bullet for Software Development at Microsoft?"
+    ],
+    "Elsevier": [
+      "A study of value in agile software development organizations",
+      "Agile methods rapidly replacing traditional methods at Nokia- A survey of opinions on agile transformation"
     ]
   },
   "usage": {
