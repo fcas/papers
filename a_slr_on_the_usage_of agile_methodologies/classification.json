@@ -1,0 +1,91 @@
+{
+  "history": {
+    "elsevier": [
+      "A decade of agile methodologies- Towards explaining agile software development"
+    ]
+  },
+  "managing": {
+    "elsevier": [
+      "Estimating, planning and managing Agile Web development projects under a value-based perspective",
+      "The impacts of agile and lean practices on project constraints: A tertiary study"
+    ]
+  },
+  "distributed agile development": {
+    "elsevier": [
+      "Categorization of risk factors for distributed agile projects"
+    ]
+  },
+  "continuous delivery": {
+    "acm": [
+      "Bottom-up Adoption of Continuous Delivery in a Stage-Gate Managed Software Organization"
+    ],
+    "elsevier": [
+      "Emerging themes in agile software development- Introduction to the special section on continuous value delivery"
+    ]
+  },
+  "crowdsourcing": {
+    "acm": [
+      "Delivering software projects using captive university crowd"
+    ],
+    "elsevier": []
+  },
+  "documentation": {
+    "acm": [
+      "Impacts of Agile Requirements Documentation Debt on Software Projects- A Retrospective Study"
+    ],
+    "elsevier": []
+  },
+  "methodologies": {
+    "acm": [
+      "Empirical investigation of agile software development- cloud perspective",
+      "Teaching Agile- addressing the conflict between project delivery and application of Agile methods",
+      "Process model for rapid implementation of features using flexible architecture"
+    ],
+    "elsevier": [
+      "Mixed Agile/Traditional Project Management Methodology – Reality or Illusion?"
+    ]
+  },
+  "slr": {
+    "acm": [
+      "Sustained Agile Usage- A Systematic Literature Review"
+    ],
+    "elsevier": [
+      "A systematic literature review on agile requirements engineering practices and challenges",
+      "Agile, Web Engineering and Capability Maturity Model Integration- A systematic literature review"
+    ]
+  },
+  "software product line": {
+    "acm": [
+      "Using Composite Feature Models to Support Agile Software Product Line Evolution"
+    ],
+    "elsevier": [
+      "A study of value in agile software development organizations",
+      "Agile methods rapidly replacing traditional methods at Nokia- A survey of opinions on agile transformation"
+    ]
+  },
+  "interviews and surveys": {
+    "acm": [
+      "Survey on agile and lean usage in finnish software industry",
+      "Have Agile Techniques been the Silver Bullet for Software Development at Microsoft?"
+    ]
+  },
+  "usage": {
+    "acm": [
+      "Agile Practices in Practice - A Mapping Study",
+      "An empirical investigation of the factors affecting agile usage"
+    ],
+    "elsevier": [
+      "Cross-factor analysis of software engineering practices versus practitioner demographics- An exploratory study in Turkey",
+      "Understanding post-adoptive agile usage- An exploratory cross-case analysis"
+    ]
+  },
+  "out": {
+    "acm": [
+      "Trust in Virtual Teams- Theory and Tools"
+    ],
+    "elsevier": [
+      "Agile predevelopment of production technologies for electric energy storage systems– a case study in the automotive industry",
+      "The usage of best practices and procedures in the database community"
+    ]
+  }
+}
