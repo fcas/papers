@@ -13,6 +13,10 @@
 
 \usepackage{booktabs} % For formal tables
 \usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage[brazil]{babel} % for European Portuguese use portuguese
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{brazil}
 
 % Copyright
 \setcopyright{othergov}
@@ -25,24 +29,44 @@
 %\setcopyright{cagovmixed}
 
 \begin{document}
-\title{Uma Revisão Sistemática sobre o uso das Metodologias Ágeis}  
+\title{Uma Revisão Sistemática sobre os fatores que impactam o uso das Metodologias Ágeis}  
 \author{F.C.A Dias}
+\orcid{0000-0003-4648-1498}
 \affiliation{%
   \institution{University of São Paulo}
+  \city{São Paulo} 
+  \state{São Paulo} 
 }
 \email{felipecavazotto@usp.br}
 
-% \begin{abstract}
-% This paper provides a sample of a \LaTeX\ document which conforms,
-% somewhat loosely, to the formatting guidelines for
-% ACM SIG Proceedings.\footnote{This is an abstract footnote}
-% \end{abstract}
+\begin{abstract}
+\noindent The Agile Manifesto \cite{Beck2001} begins saying that there is more value in interactions between individuals, in readable software codes, in collaboration with customers, and in the ability to respond to changes rather than processes and tools, documentation and plans pre-established. In this context, this article explores the following research question: What factors have impacted on the usage of Agile Methodologies in the last five years?. The Systematic Literature Review selected 17 articles related to the use of the methodologies, of the 87 initially collected. It is concluded that in the early years the articles focused on organizational factors, a situation different from the current one, in which sociological factors have been the subject of research.
+
+\section*{Resumo}
+\noindent O Manifesto Ágil \cite{Beck2001}, inicia-se dizendo haver mais valor nas interações entre indivíduos, em códigos de software legíveis, na colaboração com os clientes e na capacidade de se responder a mudanças do que em processos e ferramentas, documentação e planos pré-estabelecidos. Nesse contexto, este artigo explora a seguinte questão de pesquisa: Quais fatores têm impactado no uso das Metodologias Ágeis nos últimos cinco anos?. A Revisão Sistemática selecionou 17 artigos relacionados ao uso das metodologias, dos 87 inicialmente coletados. Concluiu-se, que nos primeiros anos os artigos focaram em fatores organizacionais, situação diferente da atual, na qual fatores sociológicos têm sido alvo de pesquisa.
+\newline
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10011007.10011074.10011081.10011082.10011083</concept_id>
+<concept_desc>Software and its engineering~Agile software development</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Software and its engineering~Agile software development}
+
+\keywords{\noindent Software Development, Agile Usage, Systematic Literature Review, Agile Manifesto}
 
 \maketitle
 
 \input{samplebody-conf}
 
-\bibliographystyle{ACM-Reference-Format}
+\bibliographystyle{acm-format-pt-br}
 \bibliography{sigproc} 
 
 \end{document}
+

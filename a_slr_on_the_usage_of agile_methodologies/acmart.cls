@@ -122,9 +122,9 @@ Computing Machinery]
     false}}
 \ExecuteOptionsX{timestamp=false}
 \def\ACM@fontsize{}
-\DeclareOptionX{9pt}{\edef\ACM@fontsize{\CurrentOption}}
-\DeclareOptionX{10pt}{\edef\ACM@fontsize{\CurrentOption}}
-\DeclareOptionX{11pt}{\edef\ACM@fontsize{\CurrentOption}}
+\DeclareOptionX{12pt}{\edef\ACM@fontsize{\CurrentOption}}
+\DeclareOptionX{12pt}{\edef\ACM@fontsize{\CurrentOption}}
+\DeclareOptionX{12pt}{\edef\ACM@fontsize{\CurrentOption}}
 \DeclareOptionX{12pt}{\edef\ACM@fontsize{\CurrentOption}}
 \DeclareOptionX{draft}{\PassOptionsToClass{\CurrentOption}{amsart}}
 \DeclareOptionX{*}{\PassOptionsToClass{\CurrentOption}{amsart}}
@@ -168,23 +168,23 @@ Computing Machinery]
 \ifx\ACM@fontsize\@empty
   \ifcase\ACM@format@nr
   \relax % manuscript
-    \def\ACM@fontsize{9pt}%
+    \def\ACM@fontsize{12pt}%
   \or % acmsmall
-    \def\ACM@fontsize{10pt}%
+    \def\ACM@fontsize{12pt}%
   \or % acmlarge
-    \def\ACM@fontsize{10pt}%
+    \def\ACM@fontsize{12pt}%
   \or % acmtog
-    \def\ACM@fontsize{9pt}%
+    \def\ACM@fontsize{12pt}%
   \or % sigconf
-    \def\ACM@fontsize{9pt}%
+    \def\ACM@fontsize{10pt}%
   \or % siggraph
-    \def\ACM@fontsize{9pt}%
+    \def\ACM@fontsize{12pt}%
    \or % sigplan
-    \def\ACM@fontsize{9pt}%
+    \def\ACM@fontsize{12pt}%
    \or % sigchi
-    \def\ACM@fontsize{10pt}%
+    \def\ACM@fontsize{12pt}%
   \or % sigchi-a
-    \def\ACM@fontsize{10pt}%
+    \def\ACM@fontsize{12pt}%
   \fi
 \fi
 \ClassInfo{\@classname}{Using fontsize \ACM@fontsize}
@@ -971,8 +971,7 @@ Computing Machinery]
   \ifx\acmConference@shortname\@empty
     \gdef\acmConference@shortname{#2}%
   \fi}
-\acmConference[Conference'17]{ACM Conference}{July 2017}{Washington,
-  DC, USA}
+\acmConference{}{}{}
 \def\subtitle#1{\def\@subtitle{#1}}
 \subtitle{}
 \newcount\num@authorgroups
@@ -2030,10 +2029,10 @@ Computing Machinery]
     \fancyfoot[C]{\if@ACM@printfolios\footnotesize\thepage\fi}%
     \fancyhead[LO]{\ACM@linecountL\@headfootfont\shorttitle}%
     \fancyhead[RE]{\@headfootfont\@shortauthors\ACM@linecountR}%
-    \fancyhead[LE]{\ACM@linecountL\@headfootfont\acmConference@shortname,
-      \acmConference@date, \acmConference@venue}%
-    \fancyhead[RO]{\@headfootfont\acmConference@shortname,
-      \acmConference@date, \acmConference@venue\ACM@linecountR}%
+    \fancyhead[LE]{\ACM@linecountL\@headfootfont\acmConference@shortname
+      \acmConference@date \acmConference@venue}%
+    \fancyhead[RO]{\@headfootfont\acmConference@shortname
+      \acmConference@date \acmConference@venue\ACM@linecountR}%
   \fi
   \if@ACM@sigchiamode
      \fancyheadoffset[L]{\dimexpr(\marginparsep+\marginparwidth)}%
@@ -2329,3 +2328,4 @@ Computing Machinery]
 \endinput
 %%
 %% End of file `acmart.cls'.
+
